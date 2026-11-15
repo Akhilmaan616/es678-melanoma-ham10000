@@ -1,0 +1,117 @@
+{
+  "n_images": 10015,
+  "n_lesions": 7470,
+  "lesions_with_2plus_images": 1956,
+  "images_in_multi_image_lesions": 4501,
+  "max_images_per_lesion": 6,
+  "lesions_with_inconsistent_dx": 0,
+  "lesions_with_inconsistent_meta": 2,
+  "age_missing": 57,
+  "age_zero": 39,
+  "sex_unknown": 57,
+  "site_unknown": 234,
+  "dx_counts": {
+    "nv": 6705,
+    "mel": 1113,
+    "bkl": 1099,
+    "bcc": 514,
+    "akiec": 327,
+    "vasc": 142,
+    "df": 115
+  },
+  "dx_type_counts": {
+    "histo": 5340,
+    "follow_up": 3704,
+    "consensus": 902,
+    "confocal": 69
+  },
+  "dataset_counts": {
+    "vidir_molemax": 3954,
+    "vidir_modern": 3363,
+    "rosendahl": 2259,
+    "vienna_dias": 439
+  },
+  "dx_by_dx_type": {
+    "akiec": {
+      "confocal": 0,
+      "consensus": 0,
+      "follow_up": 0,
+      "histo": 327
+    },
+    "bcc": {
+      "confocal": 0,
+      "consensus": 0,
+      "follow_up": 0,
+      "histo": 514
+    },
+    "bkl": {
+      "confocal": 69,
+      "consensus": 264,
+      "follow_up": 0,
+      "histo": 766
+    },
+    "df": {
+      "confocal": 0,
+      "consensus": 60,
+      "follow_up": 0,
+      "histo": 55
+    },
+    "mel": {
+      "confocal": 0,
+      "consensus": 0,
+      "follow_up": 0,
+      "histo": 1113
+    },
+    "nv": {
+      "confocal": 0,
+      "consensus": 503,
+      "follow_up": 3704,
+      "histo": 2498
+    },
+    "vasc": {
+      "confocal": 0,
+      "consensus": 75,
+      "follow_up": 0,
+      "histo": 67
+    }
+  },
+  "lesion_split_sizes": {
+    "train": {
+      "images": 6981,
+      "lesions": 5229,
+      "mel_images": 773
+    },
+    "val": {
+      "images": 1532,
+      "lesions": 1120,
+      "mel_images": 173
+    },
+    "test": {
+      "images": 1502,
+      "lesions": 1121,
+      "mel_images": 167
+    }
+  },
+  "image_split_sizes": {
+    "train": {
+      "images": 7010,
+      "lesions": 5701,
+      "mel_images": 779
+    },
+    "val": {
+      "images": 1502,
+      "lesions": 1447,
+      "mel_images": 167
+    },
+    "test": {
+      "images": 1503,
+      "lesions": 1434,
+      "mel_images": 167
+    }
+  },
+  "image_split_leakage": {
+    "image_split_test_images": 1503,
+    "test_images_whose_lesion_is_in_train": 550,
+    "fraction": 0.36593479707252163
+  }
+}

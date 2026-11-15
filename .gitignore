@@ -1,0 +1,12 @@
+.venv/
+data/
+outputs/checkpoints/
+outputs/pages/
+outputs/*.log
+outputs/main_results_prev.csv
+results/figures/gradcam_all_missed.png
+__pycache__/
+*.pyc
+report/*.aux
+report/*.log
+report/*.out

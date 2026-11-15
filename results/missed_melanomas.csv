@@ -1,0 +1,20 @@
+lesion_id,p_mel,dx_type,localization,age,sex,dataset
+HAM_0006088,0.017878363868584796,histo,abdomen,30.0,female,vidir_molemax
+HAM_0006940,0.018089730885721578,histo,upper extremity,55.0,male,rosendahl
+HAM_0006207,0.034704654960252705,histo,back,50.0,female,vidir_molemax
+HAM_0001174,0.035338277687480865,histo,scalp,70.0,male,vidir_modern
+HAM_0002235,0.053194373781973815,histo,back,30.0,male,vidir_modern
+HAM_0000075,0.0877092226864782,histo,back,70.0,male,rosendahl
+HAM_0007454,0.1138560378032234,histo,scalp,70.0,male,vidir_modern
+HAM_0003832,0.14198393788549044,histo,lower extremity,60.0,female,vidir_modern
+HAM_0000611,0.15615416092677833,histo,back,30.0,female,vidir_modern
+HAM_0005623,0.16953178880461794,histo,upper extremity,80.0,female,rosendahl
+HAM_0002841,0.1785688819988189,histo,back,20.0,male,vidir_modern
+HAM_0001266,0.2020065904885303,histo,ear,75.0,female,vidir_modern
+HAM_0005504,0.2693929309670246,histo,foot,55.0,female,rosendahl
+HAM_0001814,0.26955089838550944,histo,foot,65.0,female,rosendahl
+HAM_0006130,0.27391373065168534,histo,upper extremity,80.0,female,rosendahl
+HAM_0003761,0.27828092601352034,histo,lower extremity,45.0,female,vidir_molemax
+HAM_0004021,0.29747513201089265,histo,back,65.0,male,rosendahl
+HAM_0003167,0.30106406322100115,histo,lower extremity,40.0,female,rosendahl
+HAM_0006376,0.30215496351481763,histo,lower extremity,70.0,female,vidir_modern

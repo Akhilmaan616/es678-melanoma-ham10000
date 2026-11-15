@@ -1,0 +1,36 @@
+{
+  "sweep": {
+    "effnet_b0": {
+      "val_auroc_by_lr": {
+        "0.0001": 0.9595351886313652,
+        "0.0003": 0.9621468448655051,
+        "0.001": 0.9628129758078159
+      },
+      "chosen_lr": 0.001
+    },
+    "resnet50": {
+      "val_auroc_by_lr": {
+        "0.0001": 0.9564371510742683,
+        "0.0003": 0.9553903738792082
+      },
+      "chosen_lr": 0.0001
+    }
+  },
+  "runs": {
+    "effnet_b0_lesion": [
+      "effnet_b0_lesion_lr0.001_s0",
+      "effnet_b0_lesion_lr0.001_s1",
+      "effnet_b0_lesion_lr0.001_s2"
+    ],
+    "resnet50_lesion": [
+      "resnet50_lesion_lr0.0001_s0",
+      "resnet50_lesion_lr0.0001_s1",
+      "resnet50_lesion_lr0.0001_s2"
+    ],
+    "effnet_b0_image": [
+      "effnet_b0_image_lr0.001_s0",
+      "effnet_b0_image_lr0.001_s1",
+      "effnet_b0_image_lr0.001_s2"
+    ]
+  }
+}

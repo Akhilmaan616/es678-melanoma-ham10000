@@ -1,0 +1,67 @@
+{
+  "temperatures": {
+    "Majority class": [
+      1.01877269160619
+    ],
+    "Metadata-only LR": [
+      0.2594639770572795
+    ],
+    "ResNet-50 linear probe": [
+      0.77085102323024
+    ],
+    "ResNet-50 fine-tuned": [
+      1.3644295905972559,
+      1.4198815201729709,
+      1.382668668973896
+    ],
+    "EfficientNet-B0 fine-tuned": [
+      1.6001291579022818,
+      1.382668668973896,
+      1.5376378527367387
+    ]
+  },
+  "val_thresholds": {
+    "Majority class": [
+      Infinity
+    ],
+    "Metadata-only LR": [
+      0.1287707924214738
+    ],
+    "ResNet-50 linear probe": [
+      0.1520789187218127
+    ],
+    "ResNet-50 fine-tuned": [
+      0.14353544608799446,
+      0.252754888266914,
+      0.35014414448662645
+    ],
+    "EfficientNet-B0 fine-tuned": [
+      0.2559559440822337,
+      0.3731913607069737,
+      0.332109655998205
+    ]
+  },
+  "per_class_recall_lesion": {
+    "akiec": 0.79,
+    "bcc": 0.803,
+    "bkl": 0.682,
+    "df": 0.697,
+    "mel": 0.732,
+    "nv": 0.891,
+    "vasc": 0.881
+  },
+  "n_test_lesions_per_class": {
+    "akiec": 35,
+    "bcc": 49,
+    "bkl": 109,
+    "df": 11,
+    "mel": 92,
+    "nv": 811,
+    "vasc": 14
+  },
+  "missed_melanomas": {
+    "n": 19,
+    "n_test_mel_lesions": 92,
+    "threshold_avg": 0.32041898692913745
+  }
+}

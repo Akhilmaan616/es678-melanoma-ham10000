@@ -1,0 +1,105 @@
+{
+  "args": {
+    "arch": "effnet_b0",
+    "split": "lesion",
+    "lr": 0.0001,
+    "seed": 0,
+    "epochs": 15,
+    "bs": 48,
+    "tag": "",
+    "save_ckpt": true
+  },
+  "best_val_lesion_mel_auroc": 0.9595351886313652,
+  "log": [
+    {
+      "epoch": 0,
+      "train_loss": 1.8709591087169999,
+      "val_lesion_mel_auroc": 0.8278527321942142,
+      "sec": 17.99755048751831
+    },
+    {
+      "epoch": 1,
+      "train_loss": 1.2286713721673275,
+      "val_lesion_mel_auroc": 0.9105269835899171,
+      "sec": 17.39587140083313
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.7672803919869633,
+      "val_lesion_mel_auroc": 0.9371933682963964,
+      "sec": 17.393256425857544
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5806557581206478,
+      "val_lesion_mel_auroc": 0.9459799526306886,
+      "sec": 17.341810941696167
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.49488337169556235,
+      "val_lesion_mel_auroc": 0.9468258331923533,
+      "sec": 17.30205488204956
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.4356878251797865,
+      "val_lesion_mel_auroc": 0.955242344780917,
+      "sec": 17.36336088180542
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.3539666445100569,
+      "val_lesion_mel_auroc": 0.9532228049399425,
+      "sec": 17.345923900604248
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.3258740372754086,
+      "val_lesion_mel_auroc": 0.9574522077482659,
+      "sec": 17.341369152069092
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.2881652382780771,
+      "val_lesion_mel_auroc": 0.9595351886313652,
+      "sec": 17.345422983169556
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.2700720589126084,
+      "val_lesion_mel_auroc": 0.9576742513957031,
+      "sec": 17.34197735786438
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.24453046030377337,
+      "val_lesion_mel_auroc": 0.9571984435797666,
+      "sec": 17.42455768585205
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.2452988599278561,
+      "val_lesion_mel_auroc": 0.9574733547623075,
+      "sec": 17.309075117111206
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.22814966380903534,
+      "val_lesion_mel_auroc": 0.9563948570461851,
+      "sec": 17.37405014038086
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.222312390045465,
+      "val_lesion_mel_auroc": 0.9520808661816952,
+      "sec": 17.332063913345337
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.22795731698206478,
+      "val_lesion_mel_auroc": 0.9567437827778718,
+      "sec": 17.32894992828369
+    }
+  ]
+}
