@@ -90,4 +90,4 @@ python src/gradcam.py          # Grad-CAM of missed melanomas
 ## AI-use disclosure
 
 I used Claude (Anthropic) for brainstorming and for some help with coding. I checked the code, the
-numbers and the report myself.
+numbers and the report myself. Also, I took help of Claude to create this reproducible git and its content in much better understandable way. 
